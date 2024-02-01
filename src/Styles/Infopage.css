@@ -1,0 +1,165 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.Infopage {
+  font-family: "Poppins-Regular";
+  font-size: 15px;
+  color: #666;
+  background-color: #6645eb;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: "Poppins-Regular";
+  font-size: 15px;
+  color: #666;
+}
+
+.wrapper {
+  max-width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 20px; 
+}
+
+.wrapper form {
+  width: 100%;
+}
+
+#wizard {
+  min-height: 570px;
+  background: #fff;
+  margin-right: 0; 
+  padding: 30px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.steps ul {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap; 
+}
+
+.steps ul li {
+  width: 100%;
+  margin-bottom: 10px; 
+}
+
+.steps ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 7px;
+  background: #e6e6e6;
+  border-radius: 3.5px;
+}
+
+.steps ul li.first a,
+.steps ul li.checked a {
+  background: #6645eb;
+  transition: all 0.5s ease;
+}
+
+.steps ul:before {
+  content: "Customer Details";
+  font-size: 22px;
+  font-family: "Poppins-SemiBold";
+  color: #333;
+  top: -38px;
+  position: absolute;
+}
+
+.steps ul.step-2:before {
+  content: "Additional Info";
+}
+
+.steps ul.step-3:before {
+  content: "Your Order";
+}
+
+.steps ul.step-4:before {
+  content: "Billing Method";
+}
+
+.form-row {
+  margin-bottom: 24px;
+}
+
+.form-holder {
+  position: relative;
+}
+
+.form-holder i {
+  position: absolute;
+  top: 11px;
+  right: 19px;
+  font-size: 17px;
+  color: #999;
+}
+
+.form-control {
+  height: 42px;
+  border: 1px solid #e6e6e6;
+  background: none;
+  width: 100%;
+  padding: 0 18px;
+}
+
+.form-control:focus {
+  border-color: #f3d4b7;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #999;
+  font-size: 13px;
+}
+
+.form-control::-moz-placeholder {
+  color: #999;
+  font-size: 13px;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #999;
+  font-size: 13px;
+}
+
+.form-control:-moz-placeholder {
+  color: #999;
+  font-size: 13px;
+}
+
+.submit-button {
+  background-color: #0a2feb;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #00d2f3;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  
+  .wizard {
+    padding: 20px;
+  }
+}
