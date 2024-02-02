@@ -1,9 +1,9 @@
-// import DrAppointment from './Pages/DrAppointment'
-// import ForgotPassword from './Pages/ForgotPassword';
-// import Signup from './Pages/Signup';
-// import ResetPassword from "./Pages/ResetPassword";
-// import Login from "./Pages/Login";
+
+// import Login from "./Components/Login";
 import Navbar from "./Components/Navbar";
+// import ForgotPassword from "./Pages/ForgotPassword";
+// import Login from "./Pages/Login";
+// import ResetPassword from "./Pages/ResetPassword";
 
 
 function App() {
