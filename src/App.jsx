@@ -1,9 +1,7 @@
 
-// import Login from "./Components/Login";
 import Navbar from "./Components/Navbar";
-// import ForgotPassword from "./Pages/ForgotPassword";
-// import Login from "./Pages/Login";
-// import ResetPassword from "./Pages/ResetPassword";
+import Footer from "./Pages/Footer";
+
 
 
 function App() {
@@ -11,6 +9,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    <Footer/>
     </>
   );
 }

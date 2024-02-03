@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-card h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    margin-bottom: 10px;
+  }
+  
+  .mrp {
+    /* text-decoration: line-through; */
+    color: #999;
+  }
+  
+  .best-price {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }

@@ -1,0 +1,57 @@
+#subscribe-section{
+    background-color: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+}
+.section50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.section50 form{
+    padding-top: 25px;
+}
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #ee5253;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+}
+.section50 input[type="submit"]{
+    padding: 8px 35px;
+    font-size: 15px;
+    color: #ee5253;
+    border: 0px;
+}
+h2 {
+    margin-top: 67px;
+  }
+  
+  input[type="email"] {
+    width: 70%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    width: 25%;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+  }

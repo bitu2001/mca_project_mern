@@ -1,77 +1,41 @@
-import React from "react";
-
+import React from 'react'
+import '../Styles/Navbar.css'
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
-        <div className="container-xl">
-          <a className="navbar-brand" href="#">
-            <img
-              src="https://preview.webpixels.io/web/img/logos/clever-light.svg"
-              className="h-8"
-              alt="..."
-            />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav mx-lg-auto">
-              <a
-                className="nav-item nav-link active"
-                href="#"
-                aria-current="page"
-              >
-                Home
-              </a>
-              <a className="nav-item nav-link" href="#">
-                Product
-              </a>
-              <a className="nav-item nav-link" href="#">
-                Features
-              </a>
-              <a className="nav-item nav-link" href="#">
-                Pricing
-              </a>
-            </div>
+      <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="#" class="logo">
+          Webster
+        </a>
 
-            <div className="navbar-nav ms-lg-4">
-              <a className="nav-item nav-link" href="#">
-                Sign in
-              </a>
-            </div>
-            <div className="d-flex align-items-lg-center mt-3 mt-lg-0">
-              <a href="#" className="btn btn-sm btn-primary w-full w-lg-auto">
-                Register
-              </a>
-            </div>
-            <form className="flex items-center ms-4 lg:ms-8">
-              <input
-                className="border border-gray-300 bg-white px-4 py-2 rounded-l-md focus:outline-none focus:ring focus:border-blue-300"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button
-                className="btn btn-primary ml-3 focus:outline-none focus:ring focus:border-blue-300"
-                type="submit"
-              >
-                Search
-              </button>
-            </form>
-          </div>
+        <ul class="nav-links">
+          <i class="uil uil-times navCloseBtn"></i>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Products</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+
+        <i class="uil uil-search search-icon" id="searchIcon"></i>
+        <div class="search-box">
+          <i class="uil uil-search search-icon"></i>
+          <input type="text" placeholder="Search here..." />
         </div>
       </nav>
     </div>
   );
 }
 
-export default Navbar;
+export default Navbar
