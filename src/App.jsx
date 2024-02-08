@@ -1,17 +1,30 @@
-
-import Navbar from "./Components/Navbar";
-import Footer from "./Pages/Footer";
-
-
+// import Navbar from "./Components/Navbar";
+// import { Routes, Route } from "react-router-dom";
+// import Footer from "./Pages/Footer";
+// import Home from "./Components/Home";
+// import Notification from "./Components/Notification";
+import ResetPassword from "./Components/Navbar";
 
 function App() {
+  if ("geolocation" in navigator) {
+    navigator.geolocation.getCurrentPosition(function (position) {
+      let lat = position.coords.latitude;
+      let long = position.coords.longitude;
+    });
+  } else {
+  }
 
   return (
     <>
-    <Navbar/>
-    <Footer/>
+      {/* <Navbar />
+      <Routes>
+        <Route path="/home" element={<Home />}></Route>
+        <Route path="/notification" element={<Notification />}></Route>
+      </Routes>
+      <Footer /> */}
+      <ResetPassword />
     </>
   );
 }
 
-export default App
+export default App;

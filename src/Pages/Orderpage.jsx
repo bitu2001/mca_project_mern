@@ -1,5 +1,5 @@
 import React from "react";
-import "./Orderpage.css";
+import "../Styles/Orderpage.css";
 
 function Orderpage() {
   return (

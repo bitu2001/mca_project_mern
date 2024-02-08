@@ -1,0 +1,40 @@
+.homepage-container {
+  padding-top: 50px;
+}
+
+.hero {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  margin-top: 30px;
+  padding-bottom: 15px; /* Add some padding to prevent clipping shadow */
+}
+
+.card-wrapper {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more styles as needed */
