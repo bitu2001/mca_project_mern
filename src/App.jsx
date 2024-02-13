@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "./Pages/Footer";
 import Home from "./Components/Home";
 import Notification from "./Components/Notification";
+import Login from './Pages/Login'
+import Signup from "./Pages/Signup";
 function App() {
   if ("geolocation" in navigator) {
     navigator.geolocation.getCurrentPosition(function (position) {
@@ -20,6 +22,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/notification" element={<Notification />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/signup" element={<Signup />}></Route>
       </Routes>
       <Footer />
     </>

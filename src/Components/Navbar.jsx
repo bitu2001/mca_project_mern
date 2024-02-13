@@ -72,15 +72,15 @@ function Navbar() {
               Search
             </button>
           </form>
-          <ul className="navbar-nav mr-auto">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <NavLink
                 className="nav-link"
                 exact
                 activeClassName="active"
-                to="/"
+                to="/login"
               >
-                Doctor Pannel
+                Login
               </NavLink>
             </li>
             <li className="nav-item active">
@@ -88,9 +88,34 @@ function Navbar() {
                 className="nav-link"
                 exact
                 activeClassName="active"
-                to="/"
+                to="/signup"
               >
-                Admin Pannel
+                Signup
+              </NavLink>
+            </li>
+          </ul>
+
+          <ul className="navbar-nav ml-auto">
+            {" "}
+            {/* Change from mr-auto to ml-auto */}
+            <li className="nav-item active">
+              <NavLink
+                className="nav-link"
+                exact
+                activeClassName="active"
+                to="/doctor"
+              >
+                Doctor Panel
+              </NavLink>
+            </li>
+            <li className="nav-item active">
+              <NavLink
+                className="nav-link"
+                exact
+                activeClassName="active"
+                to="/admin"
+              >
+                Admin Panel
               </NavLink>
             </li>
           </ul>
