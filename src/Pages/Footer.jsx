@@ -24,7 +24,7 @@ function Footer() {
                     Don’t miss any updates of our new templates and extensions.!
                   </p>
                   <form
-                    action="#"
+                    action=""
                     className="f_subscribe_two mailchimp"
                     method="post"
                     novalidate="true"
@@ -143,15 +143,7 @@ function Footer() {
             <div className="row align-items-center">
               <div className="col-lg-6 col-sm-7">
                 <p className="mb-0 f_400">
-                  © cakecounter Inc.. 2019 All rights reserved.
-                </p>
-              </div>
-              <div className="col-lg-6 col-sm-5 text-right">
-                <p>
-                  Made with <i className="icon_heart"></i> in{" "}
-                  <a href="http://cakecounter.com" target="_blank">
-                    CakeCounter
-                  </a>
+                  © 2024 All rights reserved.
                 </p>
               </div>
             </div>

@@ -5,9 +5,14 @@ function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">
+        <NavLink
+          className="navbar-brand nav-item active"
+          exact
+          activeClassName="active"
+          to="/"
+        >
           Navbar
-        </a>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -27,7 +32,7 @@ function Navbar() {
                 className="nav-link"
                 exact
                 activeClassName="active"
-                to="/home"
+                to="/"
               >
                 Home
               </NavLink>
